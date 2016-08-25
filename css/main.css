@@ -1,0 +1,63 @@
+.cancha{
+	background-color: #94c381;
+	width: 900px;
+	height: 500px;
+	position: relative;
+}
+
+.borde-cancha, .arco-izquierdo, .arco-derecho, .centro{
+	border: 1px solid white;
+	position: absolute;
+}
+
+.pelota1, .pelota2, .pelota3{
+	position: absolute;
+}
+
+.borde-cancha{
+	width: 850px;
+	height: 450px;
+	left: 23px;
+	top: 23px;
+}
+
+.arco-izquierdo, .arco-derecho{
+	width: 120px;
+	height: 200px;
+}
+
+.arco-izquierdo{
+	border-right: 0px;
+	right: 0px;
+	top: 125px;
+}
+
+.arco-derecho{
+	border-left: 0px;
+	left: 0px;
+	top: 125px;
+}
+
+.centro{
+	left: 325px;
+	top: 125px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.pelota1{
+	
+	bottom: 5px;
+	left: -30px;
+}
+
+.pelota2{
+	right: -13px;
+	top: 3px;
+}
+
+.pelota3{
+	top: -60px;
+	left: 125px;
+}
